@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>PDF Generator</title>
+</head>
+<body>
+  <h1>Create PDF</h1>
+  <form method="POST" action="/generate">
+    <div>
+      <label>Title:</label>
+      <input type="text" name="title" required />
+    </div>
+    <div>
+      <label>Content:</label>
+      <textarea name="content" required></textarea>
+    </div>
+    <div>
+      <label>Brand Color:</label>
+      <input type="color" name="color" />
+    </div>
+    <button type="submit">Generate PDF</button>
+  </form>
+</body>
+</html>
